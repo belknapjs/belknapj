@@ -1,0 +1,48 @@
+/* draw a solid line around each table cell */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  font-weight: normal;
+  font-style: normal;
+}
+
+#rowhdr {
+  font-weight: bold;
+  font-style: normal;
+}
+
+#colhdr {
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* 3. Create a div that is aligned to the left side of the page and takes up 3/4 of 
+      the page width, has a space of 20px between it and the previous element and
+      has a class of 'outer-content'.
+      - Its background should be pink (or any color that looks like pink).
+      - Inside that div have another div called 'inner-content'.
+        - Its background should be blue (any kind of blue works).
+        - It should take up 3/4 of the parent divs width and should be centered.
+*/
+.outer-content {
+  background-color: pink;
+  width: 75%;
+  margin-top: 20px;
+}
+
+.inner-content {
+  background-color: lightblue;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+form {
+  margin-top: 20px;
+  border-style: solid:
+  border-width: 1px;
+  box-sizing: border-box;
+}
